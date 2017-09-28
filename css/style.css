@@ -1,0 +1,364 @@
+/** {
+    border: 1px solid red;
+}
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f6f4f1;
+
+}
+
+
+.hideme
+{
+   /* position: relative;
+    opacity:0;
+    left: 100;*/
+
+}
+
+
+/*----------------------------------------HOME SECTION*/
+
+.nav {
+
+    list-style: none;
+    text-align: right;
+    padding: 30px 0;
+    background-color: rgba(0,0,0, 0.5);
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.logo {
+
+    float: left;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size:30px;
+    line-height: 50%;
+    font-family: 'Tangerine', cursive;
+
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.nav li a:hover {
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+
+
+}
+
+#home {
+    background-image: url(../img/background-home.jpg);
+    height: 658px;
+    position: relative;
+    z-index: 1;
+}
+
+.home-content {
+
+    width: 50%;
+    text-align: center;
+    margin: 200px auto;
+    color: white;
+
+}
+
+.home-logo {
+    font-family: 'Tangerine', cursive;
+    font-size: 5em;
+    margin: 0;
+    opacity: 0;
+
+}
+.home-info {
+    text-transform: uppercase;
+    margin:0;
+    letter-spacing: 10px;
+    opacity: 0;
+
+}
+
+.button-more {
+
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+    font-size: 20px;
+    margin: 100px auto;
+    width: 100px;
+    opacity: 0;
+
+}
+.button-more:hover {
+    background-color: rgba(255,255,255, 0.5);
+    cursor: pointer;
+    color: black;
+}
+
+/*----------------------------------------INFORMATION SECTION*/
+
+#informations {
+    height: 600px;
+    background-color: white;
+    width: 80%;
+    margin: -40px auto;
+    box-shadow: 0 0 50px black;
+    position: relative;
+    z-index: 3;
+
+}
+
+
+.reservations {
+
+height: 300px;
+
+
+}
+.reservations-info {
+    text-align: center;
+    width: 30%;
+    padding:40px;
+    margin: 0;
+    float: left;
+
+}
+
+.infos {
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.button-book {
+    border:2px solid #e1ceb9;
+    color :#b89d7a;
+    background-color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 50%;
+    margin:0 auto;
+}
+.button-book:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 20px lightgray;
+}
+
+.reservations-img {
+    background-image: url(../img/reservations-img.png);
+    background-size: cover;
+    background-position: 0;
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+.about {
+    height: 300px;
+}
+
+.about-info {
+    text-align: center;
+
+    width: 60%;
+    float: right;
+
+    padding-top: 50px;
+}
+.about-img {
+
+    height: 100%;
+    width: 40%;
+    background-image: url(../img/about-img.jpg);
+    background-size: cover;
+    background-position: -60px;
+}
+
+/*----------------------------------------SPECIALITIES SECTION*/
+
+.specialities {
+
+    height: 650px;
+    background-image: url(../img/specialities-bg.jpg);
+    background-size: cover;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+}
+
+#specialities {
+    height: 506px;
+    background-color: white;
+    width: 80%;
+    margin: -40px auto;
+    box-shadow: 0 0 50px black;
+    position: relative;
+    z-index: 3;
+}
+
+.content-specialities {
+        padding: 22% ;
+        color: white;
+        text-align: center;
+}
+.specialities-list {
+
+    height: 506px;
+
+}
+.specialities-info {
+
+    text-align: center;
+    width: 25%;
+    height: 253px;
+    display: block;
+    float: left;
+    background-color: ;
+
+}
+
+.specialities-info h2 {
+    margin-top: 20%;
+    text-transform: uppercase;
+}
+
+.specialities-img {
+
+    width: 25%;
+    height: 253px;
+    display: block;
+    float: left;
+}
+
+.specialities-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.prices {
+    text-transform: uppercase;
+    font-weight: bold;
+    color :#b89d7a;
+}
+
+.transition {
+
+    height: 500px;
+    background-image: url(../img/transition-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+}
+
+
+/*----------------MENU SECTION*/
+.menu {
+
+}
+.title-menu {
+
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sub-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #b3b3b3;
+    margin: 50px 0 50px 0;
+}
+
+.menu hr {
+    width: 50px;
+    height: 2px;
+    background-color :#b89d7a;
+    margin-top: 0px;
+
+}
+
+.menu-list {
+    /*border:1px solid green;*/
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 90px;
+}
+
+.menu-item {
+    padding: 0 2%;
+    width: 45%;
+    /*border: 1px solid yellow;*/
+    display: inline-block;
+}
+
+.menu-item-title {
+    font-family: 'Verdana';
+    text-transform: uppercase;
+    font-weight:bold ;
+    margin-bottom: 0;
+}
+
+.menu-item-infos {
+    display: inline-flex;
+
+}
+
+.menu-item-infos p {
+
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+
+.menu-item-infos h1 {
+    font-size: 4em;
+    margin: 0px;
+    font-family: 'Tangerine', cursive;
+        color :#b89d7a;
+
+}
+
+
+/*---------------------------FOOTER SECTION*/
+
+
+.footer {
+    margin-top: 10%;
+    text-align: center;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.footer a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer a:hover{
+    font-size: 1.1em;
+}
