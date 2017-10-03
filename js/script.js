@@ -27,6 +27,11 @@ $('.hideme').css({"position":"relative","opacity": 0,  "top":"+=50"});
         });
 
     });
+    
+$('#language').on("click", function () {
+
+  $(this).html("IT");
+});
 
 
 });
